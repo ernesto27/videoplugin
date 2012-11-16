@@ -1,0 +1,31 @@
+<!doctype html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/videosplugin.css">
+
+</head>
+<body>
+
+ <a href="http://www.youtube.com/watch?v=jVCrFh7YVtw&feature=g-vrec">open pop up </a> 
+
+
+<div id="overlay"></div>
+<div id="modal-box">
+<a href="" id="close-box">X</a>
+  <div id="video"></div>
+
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/jquery.youtube.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$("a").videosEmbed({		
+			width:600,
+			height:400
+		});
+	})
+</script>
+</body>
+</html>
